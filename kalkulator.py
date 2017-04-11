@@ -1,6 +1,7 @@
-def dodawanie():
-  a = int(input("Podaj pierwsz¹ liczbê"))
-  b = int(input("Podaj drug¹ liczbê"))
-  print(a + b)
+def dodawanie(a, b):
+  wynik = a + b
+  return wynik
   
-dodawanie()
+zm1 = int(input("Podaj pierwsz¹ liczbê"))
+zm2 = int(input("Podaj druga liczbê"))
+print (dodawanie(zm1, zm2))
